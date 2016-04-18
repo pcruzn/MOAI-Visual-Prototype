@@ -1,17 +1,8 @@
 <?php
+include('header.php');
 include ("moai_db_connection.php");
 include ("models/encounterService.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="flat-ui.css" />
-	<title>Serie de tiempo para encuentros por fecha</title>
-	<script src="Chart.js/Chart.js"></script>
-</head>
-<body>
-
 <h3>Radar - Tipo de Encuentros</h3>
 <p><a href="javascript:window.open(&quot;createGroup.php&quot;,&quot;Crear Agrupación&quot;, &quot;width=300,height=400,scrollbars=no&quot;)">Crear agrupación</a></p>
 <div style="width: 50%" align="center">
@@ -90,9 +81,7 @@ include ("models/encounterService.php");
 		}
 		
 	</script>
-    
-    <footer>
-  <p align="right"><a href="moai.php">Volver al inicio</a> <a href="index.php">Salir</a></p>
-</footer>
-	</body>
-</html>
+
+<?php
+include('footer.html');
+?>

@@ -27,7 +27,7 @@
             <div class="container">
                 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-02">
                 </button>
-                <a href="#fakelink" class="brand">MOAI</a>
+                <a href="moai.php" class="brand">MOAI</a>
                 <div class="nav-collapse collapse" id="nav-collapse-02">
                     <form class="navbar-search form-search pull-right" action="searchByKeyword.php?tipo=1" method="post">
                         <div class="input-append">
@@ -53,9 +53,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#fakelink">
-                                <span class="fui-mail"></span><span class="hidden-desktop">Messages</span>
-                                <span class="navbar-new">1</span>
+                            <a href="index.php">
+                                <span class="fui-power"></span><span class="hidden-desktop">Salir</span>
                             </a>
                         </li>
                         <li>
