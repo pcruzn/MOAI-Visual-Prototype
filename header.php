@@ -72,7 +72,7 @@
         <div class="span2">
             <div class="iconbar">
                 <ul>
-<!--                    <li><a href="facetedSearch.php" class="fui-search" data-toggle="tooltip" title="Busqueda faceteada"></a></li>-->
+                    <li><a href="facetedSearch.php" class="fui-search" data-toggle="tooltip" title="Busqueda faceteada"></a></li>
                     <li><a href="encounterHourHistogramChart.php" class="fui-list" title="Histograma - Hora de Encuentros" data-toggle="tooltip"></a></li>
                     <li><a href="encounterDateTimeSeriesChart.php" class="fui-calendar" title="Serie de Tiempo -  Encuentros por Fecha" data-toggle="tooltip"></a></li>
                     <li><a href="encounterTypeRadarChart.php" class="fui-list-bulleted" title="Radar - Tipo de Encuentros" data-toggle="tooltip"></a></li>
