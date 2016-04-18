@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="flat-ui.css" />
+<link href="Flat-UI/css/flat-ui.css" rel="stylesheet">
+<link rel="shortcut icon" href="moai_icon.ico">
 <title>MOAI</title>
 </head>
 
@@ -33,7 +34,8 @@
 			// just for the prototype: check only one demo user
 			// no sessions, no special security
 			if ($username == "demo" && $password == "moaidemo") {
-				header('Location: ' . 'moai.php');
+				echo "<META HTTP-EQUIV=Refresh CONTENT='0; URL=moai.php'/>";
+//                header('Location: ' . 'moai.php');
 				die();	
 			}
 			else {
